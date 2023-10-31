@@ -17,6 +17,16 @@
 </body>
 <script>
     const parent = document.querySelector('.parent');
-    console.log(parent.children);
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+    for(let i = 0;i<parent.childern.lenght;i++){
+        console.log(parent.childern[0].innerHTML);
+    }
+    const dayone = document.querySelector('day');
+    console.log(dayone);
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling);
+    console.log("nodes: ",parent.childNodes)
 </script>
 </html>
