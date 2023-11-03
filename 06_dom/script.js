@@ -1,4 +1,4 @@
-// window => is object that contain everything{global javascript pbjects,functions,variables}.
+// window => is object that contain everything{global javascript objects,functions,variables}.
 
 /* DOM : 
 window => document => html => head and body => and then sub part of attributes or elements.
