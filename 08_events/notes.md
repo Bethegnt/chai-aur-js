@@ -2,7 +2,6 @@ An event is a signal or notification that indicates that something has happened,
 "e" is often used as a variable name for the event object. and you can choose any name you prefer (e.g., "event" or "evt") to represent the event object. 
 
 some important and mostly used events :-
-let's go through each of the properties and concepts related to events with examples:
 
 1. **Type**:
    - **Description**: The `type` property represents the type of the event, indicating what kind of event has occurred.
