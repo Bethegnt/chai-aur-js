@@ -1,4 +1,4 @@
-In JavaScript, there are various types of time-based events and asynchronous operations that you can manage. Here, I'll explain some of these types and provide examples for each.
+There are various types of time-based events and asynchronous operations that you can manage. Here, I'll explain some of these types and provide examples for each.
 
 1. **Timers (setTimeout and setInterval):**
    Timers are used to schedule code execution after a certain delay or at regular intervals.
