@@ -1,4 +1,4 @@
-In JavaScript, there are older and newer ways to make API requests, with the newer methods being more modern and preferred.
+There are older and newer ways to make API requests, with the newer methods being more modern and preferred.
 
 **Older Way (Callback-Based):**
 
