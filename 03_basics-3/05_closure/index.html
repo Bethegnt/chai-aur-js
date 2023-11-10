@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>closure</title>
+</head>
+<body style="background-color: #313131;">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+</body>
+<script>
+    function init(){
+        let name = "Gagan";
+        function displayName(){
+            console.log(name);
+        }
+        displayName();
+    }
+    init();
+
+    function outer(){
+        let username = "Gagan"
+        console.log('outer',secret);
+        function innner(){
+            let secret = 'my123'
+            console.log(secret);
+        }
+        inner();
+        innerTwo();
+    }
+    outer()
+    console.log('Too Outer',username);
+
+    function makeFunc(){
+        const name = 'Gagan';
+        function displayName(){
+            console.log(name);
+        }
+        return displayName();
+    }
+    const myFunc = makeFunc();
+    myFunc();
+</script>
+<script>
+    document.getElementById('orange').onclick = function(){
+        document.body.style.backgroundColor = `orange`
+         }
+         document.getElementById('green').onclick = function(){
+            document.body.style.backgroundColor = `green`
+         }
+         // suppose you have 1000 colors and button then you should have a function is :---
+         function clickHnadler(color){
+            document.body.style.backgroundColor = `${color}`
+         }
+         document.getElementById('orange').onclick = clickHnadler('orange');
+         document.getElementById('green').onclick = clickHnadler('green');
+        
+</script>
+</html>
