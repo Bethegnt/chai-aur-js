@@ -1,4 +1,4 @@
-JavaScript provides several control statements for conditional execution and decision-making in your code. Here's an explanation of some of these statements along with examples:
+JavaScript provides several control statements for conditional execution and decision-making in your code. 
 
 1. `if` Statement:
    The `if` statement is used to execute a block of code if a specified condition is `true`.
