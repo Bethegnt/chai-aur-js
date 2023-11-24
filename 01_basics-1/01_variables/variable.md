@@ -37,5 +37,3 @@ Certainly! Here's a table summarizing the differences between `var`, `let`, and 
 | **Reassignment**       | Can be reassigned                       | Can be reassigned                       | Cannot be reassigned                   |
 | **Example**            | ```javascript var x = 5; if (true) { var x = 10; } console.log(x); // Outputs 10 ``` | ```javascript let x = 5; if (true) { let x = 10; } console.log(x); // Outputs 5 ``` | ```javascript const x = 5; if (true) { const x = 10; } console.log(x); // Outputs 5 ``` |
 | **Temporal Dead Zone** | Not affected. Variables are hoisted to the top. | Throws an error if accessed before declaration. | Throws an error if accessed before declaration. |
-
-These are some of the key differences between `var`, `let`, and `const` in JavaScript. It's generally recommended to use `let` and `const` over `var` for more predictable behavior and to avoid certain pitfalls associated with `var`.
