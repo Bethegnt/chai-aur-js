@@ -29,6 +29,3 @@ because of issue in block scope and functional scope
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
 
-
-
-// vit-c,hyloronic,sunscreen-dr.sheth
