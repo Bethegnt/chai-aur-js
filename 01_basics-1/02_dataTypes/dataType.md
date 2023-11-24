@@ -47,7 +47,7 @@ There are several data types that you can use to represent different kinds of va
    let id = Symbol("unique");
    ```
 
-### 2. **Composite Data Types:**
+### 2. **Composite Data Types** / **Non-Primitive Data Type:**
 
 #### a. **Object:**
    - Represents a collection of key-value pairs.
@@ -67,9 +67,7 @@ There are several data types that you can use to represent different kinds of va
    let fruits = ["apple", "banana", "orange"];
    ```
 
-### 3. **Special Data Type:**
-
-#### a. **Function:**
+#### c. **Function:**
    - Represents a reusable block of code.
 
    ```javascript
@@ -78,16 +76,4 @@ There are several data types that you can use to represent different kinds of va
    }
    ```
 
-### 4. **Non-Primitive Data Type:**
-
-#### a. **Object:**
-   - Although mentioned earlier, it's worth noting that in JavaScript, objects are non-primitive data types.
-
-   ```javascript
-   let person = {
-     name: "John",
-     age: 25,
-     isStudent: false
-   };
-   ```
 
